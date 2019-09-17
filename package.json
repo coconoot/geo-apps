@@ -1,0 +1,24 @@
+{
+  "name": "filter",
+  "version": "0.0.1",
+  "description": "filtering WFS objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "ilco",
+  "license": "ISC",
+  "dependencies": {
+    "node_module": "0.0.0",
+    "ol": "^5.3.3",
+    "ol-layerswitcher": "^3.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
